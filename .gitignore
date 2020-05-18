@@ -190,7 +190,7 @@ venv.bak/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
+db.sqlite
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
