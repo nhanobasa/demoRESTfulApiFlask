@@ -29,6 +29,7 @@ class LoginController(Resource):
             # if true, return jwt token
             payload = {
                 'user_id': user.id,
+                'public_id': user.public_id,
                 'username': user.username,
                 'exp': datetime.utcnow() + timedelta(minutes=30)
             }
